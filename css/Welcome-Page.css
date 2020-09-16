@@ -1,0 +1,63 @@
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+#welcome-page {
+	z-index: 5;
+}
+
+#Tea-Finder {
+	display: none;
+	position: absolute;
+	width: 850px;
+	z-index: 8;
+	top: 2.5%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	font-family: 'Comfortaa', cursive;
+}
+
+#Tea-Finder img {
+	color: black;
+	font-weight: 200;
+	font-size: 7.5em;
+	height: 2.5em;
+	position: relative;
+	left: 12.5%;
+}
+
+#Tea-Finder h3 {
+	color: black;
+	text-align: center;
+	font-weight: 300;
+	font-size: 2em;
+	margin-top: -1em;
+}
+
+#Tea-Finder button {
+	position: relative;
+	top: 20px;
+	border-radius: 0px;
+	margin: auto;
+	left: 345px;
+	font-weight: 300;
+	height: 50px;
+	width: 150px;
+	box-shadow: 1px 1px 5px #888888;
+	background-color: #0E9B49;
+}
+
+.background {
+	position: absolute;
+	height: 100%; 
+	width: 100%; 
+	z-index: 6; 
+	top: 0;
+}
+
+

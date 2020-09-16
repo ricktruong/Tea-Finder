@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tea Finder</title>
+	<link type="text/css" rel="stylesheet" href="css/Welcome-Page.css"/>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap-3.3.7-dist 2/css/bootstrap.min.css"/>
+	<script text="text/javascript" src="js/jquery-ui-1.12.1 2/external/jquery/jquery.js"></script>
+	<script type="text/javascript" src="js/Welcome-page.js"></script>
+	<!--Fonts-->
+		<link href="http://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Great Vibes" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<!---->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+	<img src="images/theimage.png" id="white-pic" class="background"/>
+	<img src="images/townn.png" id="color-pic" class="background" style="display: none;"/>
+	<div id="welcome-page">
+		<div id="Tea-Finder">
+			<img src="images/TeaFinder_Logo.png" style="display: none;"/>
+			<h3 style="display: none;">All your tea shops found in a click.</h3>
+			<form style="display: none;" action="MainPage.html">
+				<button class="btn btn-success btn-lg">Browse Tea</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+<script text="text/javascript">
+	$(document).ready(function() {
+		$("div").fadeIn(1000);
+	});
+</script>
